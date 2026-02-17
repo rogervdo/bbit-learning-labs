@@ -16,6 +16,7 @@
 
 import os
 import sys
+import pika
 
 # Update the import to match the producer class file you created if it's different then the default
 from solution.producer_sol import mqProducer  # pylint: disable=import-error
